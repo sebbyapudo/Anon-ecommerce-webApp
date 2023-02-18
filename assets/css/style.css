@@ -54,3 +54,67 @@ CUSTOM PROPERTIES
 
     --transition-timing: 0.2s ease;
 }
+
+/***************
+ RESETS
+****************/
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a { text-decoration: none; }
+
+li { list-style: none; }
+
+button {
+    background: none;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+img, ion-icon, button, a { display: block; }
+
+span { display: inline-block; }
+
+html {
+    font-family: "Poppins", sans-serif;
+    overscroll-behavior: contain;
+}
+
+input,
+select, 
+textarea {
+    display: block;
+    width: 100%;
+    font: inherit;
+}
+
+input::placeholder { font: inherit; }
+
+body { background: var(--white); }
+
+body::-webkit-scrollbar { width: 15px; }
+
+body::-webkit-scrollbar-track {
+    background-color: var(--white);
+    border-left: 1px solid var(--cultured);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 80%);
+    border: 3px solid var(--white);
+    border-radius: var(--border-radius-md);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(0, 0%, 70%);
+}
+
+
+
+

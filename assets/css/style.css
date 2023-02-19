@@ -161,11 +161,11 @@ Modal
     display: flex;
     justify-content: center;
     align-items: center;
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    pointer-events: none; */
+    pointer-events: none;
     z-index: 10;
-    /* animation: popup 1s ease-in-out 5s forwards; */
+    animation: popup 1s ease-in-out 5s forwards;
 }
 
 @keyframes popup {

@@ -11,3 +11,6 @@ const modalCloseFunc = function () {modal.classList.add('closed')}
 // Modal eventListener
 modalCloseOverlay.addEventListener('click', modalCloseFunc);
 modalCloseBtn.addEventListener('click', modalCloseFunc);
+
+// Notification toats 
+const notificationToast = document.querySelector('[data-toast]');

@@ -287,10 +287,10 @@ Notification toast
     padding: 15px;
     border-radius: var(--border-radius-md);
     box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
-    /* transform: translateX(calc(-100% - 40px)); */
+    transform: translateX(calc(-100% - 40px));
     transition: 0.5s ease-in-out;
     z-index: 5;
-    /* animation: slideInOut 10s ease-in-out infinite; */
+    animation: slideInOut 10s ease-in-out infinite;
 }
 
 @keyframes slideInOut {

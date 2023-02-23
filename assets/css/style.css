@@ -86,8 +86,7 @@ html {
     overscroll-behavior: contain;
 }
 
-input,
-select, 
+input, 
 textarea {
     display: block;
     width: 100%;
